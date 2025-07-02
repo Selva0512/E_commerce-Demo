@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Homepage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="../competition_proj/indexcs.css" rel="stylesheet">
+</head>
+
+<body>
+<div> 
+
+<header class="sticky-header">
+        <div class="bg-slate-900 mx-auto p-4 flex justify-evenly ">
+            <div class="flex items-center ">
+                <img src="../Assets/logo.png" alt="Logo" class="logo rounded-2xl">
+            </div>
+            <div class="flex justify-center items-center gap-3 flex-grow mx-5">
+                <input type="text" placeholder="Search" class="w-80 rounded-md px-4 py-2 focus:outline-none">
+                <button class="text-white bg-yellow-300 rounded-md px-4 py-2 max-w-full">Search</button>
+            </div>
+            <div class="flex items-center mx-2 space-x-4">
+                <a href="./Sign-in.html" class="text-white"><span class="hover:underline">Sign_in</span></a>
+                <a href="./cart.html" class="text-white"><span class="hover:underline">Returns</span></a>
+                <div class="relative">
+                    <a href="./cart.html" class="text-white"><span class="hover:underline">Cart</span></a>
+                    <span class="bg-red-500 text-white rounded-full w-5 h-5 flex items-center justify-center
+                     absolute -top-1 -right-1">0</span>
+                </div>
+            </div>           
+        </div>
+        <div class="bg-slate-700 flex items-start py-2 px-4 gap-4">
+            <a href="./index.html" class="text-white text"><span class="hover:underline">Home</span></a>
+            <a href="#" class="text-white text"><span class="hover:underline">Sell</span></a>
+            <a href="#" class="text-white text"><span class="hover:underline">top Deals</span></a>
+            <a href="#" class="text-white text"><span class="hover:underline">Customer Service</span></a>
+            <a href="#" class="text-white text"><span class="hover:underline">Electronics</span></a>
+            <a href="#" class="text-white text"><span class="hover:underline">Fashion</span></a>
+            <a href="#" class="text-white text"><span class="hover:underline">New Releases</span></a>
+            <a href="#" class="text-white text"><span class="hover:underline">Subscription</span></a>
+        </div>
+</header>
+
+<main class="pb-5 bg-slate-100">
+
+    <section class="relative h-auto bg-yellow-400">
+        <div class="hero absolute inset-0 filter blur-sm"></div>
+        <div class="relative z-10 grid grid-cols-1 md:grid-cols-2">
+            <div class="flex flex-col justify-center items-start space-y-3 mt-8 p-6 ml-6">
+                <h1 class="text-4xl text-white">Welcome to LION KING</h1>
+                <p class="text-2xl text-white">Explore a wide range of products at great prices!</p>
+                <a href="#product" class="text-white text"><button class=" text-xl text-white border-2 bg-blue-950
+                    p-3 rounded-2xl">Shop Now</button></a>  
+            </div> 
+            <div class="flex justify-center items-center">
+            <img src="../Assets/gift1-removebg-preview.png" alt="img" class="prsize2">   </div> 
+        </div>     
+    </section>
+ 
+    <section id="product" class="m-5">
+        <h2 class="text-3xl font-semibold m-4">Featured Products</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div class="bg-white flex flex-col justify-center items-center rounded-lg shadow-md p-4">
+                <h3 class="text-2xl font-semibold my-4">Upto 20% to 30% Offer</h3>
+                <a href="./product-page1.html" class="flex flex-col justify-center items-center">
+                    <img src="../Assets/small rc car.jpg" alt="Product Image" class="rounded-lg prsize
+                     transition-transform duration-300 ease-in-out transform hover:scale-105">
+                    <button class="bg-blue-400 text-white py-3 px-2 rounded-md mt-4">See More</button>
+                </a>
+            </div>  
+            
+            <div class="bg-white flex flex-col justify-center items-center rounded-lg shadow-md p-4">
+                <h3 class="text-2xl font-semibold my-4">Upto 10% to 40% Offer</h3>
+                <a href="./product-page2.html" class="flex flex-col justify-center items-center">
+                    <img src="../Assets/wb1.jpg" alt="Product Image" class="rounded-lg prsize
+                     transition-transform duration-300 ease-in-out transform hover:scale-105">
+                    <button class="bg-blue-400 text-white py-3 px-2 rounded-md mt-4">See More</button>
+                </a>
+            </div>
+
+            <div class="bg-white flex flex-col justify-center items-center rounded-lg shadow-md p-4">
+                <h3 class="text-2xl font-semibold my-4">Upto 15% to 40% Offer</h3>
+                <a href="./product-page3.html" class="flex flex-col justify-center items-center">
+                    <img src="../Assets/gojo.jpg" alt="Product Image" class="rounded-lg prsize
+                     transition-transform duration-300 ease-in-out transform hover:scale-105">
+                    <button class="bg-blue-400 text-white py-3 px-2 rounded-md mt-4">See More</button>
+                </a>
+            </div>
+
+            <div class="bg-white flex flex-col justify-center items-center rounded-lg shadow-md p-4">
+                <h3 class="text-2xl font-semibold my-4">Upto 15% to 40% Offer</h3>
+                <a href="./product-page4.html" class="flex flex-col justify-center items-center">
+                    <img src="../Assets/naruto.jpg" alt="Product Image" class="rounded-lg prsize
+                     transition-transform duration-300 ease-in-out transform hover:scale-105">
+                    <button class="bg-blue-400 text-white py-3 px-2 rounded-md mt-4">See More</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="m-5">
+        <div>
+            <h2 class="text-3xl font-semibold m-4">Unique products for low prize</h2>
+            <div class="scroll-container flex flex-row justify-start items-center rounded-lg shadow-md">
+                <a href="./product-page1.html"><img src="../Assets/mha.jpg" alt="image1" class="rounded-lg prsize"></a>
+                <a href="./product-page2.html"><img src="../Assets/wb4.jpg" alt="image2" class="rounded-lg prsize"></a>
+                <a href="./product-page3.html"><img src="../Assets/dragonball.jpg" alt="image3" class="rounded-lg prsize"></a>
+                <a href="./product-page4.html"><img src="../Assets/drifting car.jpg" alt="image4" class="rounded-lg prsize"></a>
+                <a href="./product-page1.html"><img src="../Assets/monster car.jpg" alt="image5" class="rounded-lg prsize"></a>
+                <a href="./product-page2.html"><img src="../Assets/wb3.jpg" alt="image6" class="rounded-lg prsize"></a>
+                <a href="./product-page3.html"><img src="../Assets/gojo.jpg" alt="image7" class="rounded-lg prsize"></a>
+                <a href="./product-page4.html"><img src="../Assets/drifting car.jpg" alt="image8" class="rounded-lg prsize"></a>
+            </div>
+        </div>   
+    </section>
+
+    <section class="m-5">
+        <h2 class="text-3xl font-semibold m-4">Featured Products</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div class="bg-white flex flex-col justify-center items-center rounded-lg shadow-md p-4">
+                <h3 class="text-2xl font-semibold my-4">Upto 20% to 30% Offer</h3>
+                <a href="./product-page1.html" class="flex flex-col justify-center items-center">
+                    <img src="../Assets/small rc car.jpg" alt="Product Image" class="rounded-lg prsize
+                     transition-transform duration-300 ease-in-out transform hover:scale-105">
+                    <button class="bg-blue-400 text-white py-3 px-2 rounded-md mt-4">See More</button>
+                </a>
+            </div>  
+            
+            <div class="bg-white flex flex-col justify-center items-center rounded-lg shadow-md p-4">
+                <h3 class="text-2xl font-semibold my-4">Upto 10% to 40% Offer</h3>
+                <a href="./product-page2.html" class="flex flex-col justify-center items-center">
+                    <img src="../Assets/wb1.jpg" alt="Product Image" class="rounded-lg prsize
+                     transition-transform duration-300 ease-in-out transform hover:scale-105">
+                    <button class="bg-blue-400 text-white py-3 px-2 rounded-md mt-4">See More</button>
+                </a>
+            </div>
+
+            <div class="bg-white flex flex-col justify-center items-center rounded-lg shadow-md p-4">
+                <h3 class="text-2xl font-semibold my-4">Upto 15% to 40% Offer</h3>
+                <a href="./product-page3.html" class="flex flex-col justify-center items-center">
+                    <img src="../Assets/gojo.jpg" alt="Product Image" class="rounded-lg prsize
+                     transition-transform duration-300 ease-in-out transform hover:scale-105">
+                    <button class="bg-blue-400 text-white py-3 px-2 rounded-md mt-4">See More</button>
+                </a>
+            </div>
+
+            <div class="bg-white flex flex-col justify-center items-center rounded-lg shadow-md p-4">
+                <h3 class="text-2xl font-semibold my-4">Upto 15% to 40% Offer</h3>
+                <a href="./product-page4.html" class="flex flex-col justify-center items-center">
+                    <img src="../Assets/naruto.jpg" alt="Product Image" class="rounded-lg prsize
+                     transition-transform duration-300 ease-in-out transform hover:scale-105">
+                    <button class="bg-blue-400 text-white py-3 px-2 rounded-md mt-4">See More</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="m-5">
+        <div>
+            <h2 class="text-3xl font-semibold m-4">New Exclusive products</h2>
+            <div class="scroll-container flex flex-row justify-start items-center rounded-lg shadow-md">
+                <a href="./product-page1.html"><img src="../Assets/mha.jpg" alt="image1" class="rounded-lg prsize"></a>
+                <a href="./product-page2.html"><img src="../Assets/wb4.jpg" alt="image2" class="rounded-lg prsize"></a>
+                <a href="./product-page3.html"><img src="../Assets/dragonball.jpg" alt="image3" class="rounded-lg prsize"></a>
+                <a href="./product-page4.html"><img src="../Assets/drifting car.jpg" alt="image4" class="rounded-lg prsize"></a>
+                <a href="./product-page1.html"><img src="../Assets/monster car.jpg" alt="image5" class="rounded-lg prsize"></a>
+                <a href="./product-page2.html"><img src="../Assets/wb3.jpg" alt="image6" class="rounded-lg prsize"></a>
+                <a href="./product-page3.html"><img src="../Assets/gojo.jpg" alt="image7" class="rounded-lg prsize"></a>
+                <a href="./product-page4.html"><img src="../Assets/drifting car.jpg" alt="image8" class="rounded-lg prsize"></a>
+            </div>
+        </div>   
+    </section>
+
+</main>
+
+
+<footer class="bg-gray-900 text-white p-4">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2024 Lion king Homepage. All rights reserved.</p>
+    </div>
+</footer>
+
+
+</div>
+</body>
+
+</html>

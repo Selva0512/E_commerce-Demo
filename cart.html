@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="./indexcs.css" rel="stylesheet">
+    <style>
+        .header-button {
+            padding: 0.5rem 1rem;
+            border-radius: 0.5rem;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100">
+
+    <div class="bg-slate-900 mx-auto py-2 px-4 flex justify-between items-center">
+        <div class="flex items-center">
+            <img src="../Assets/logo.png" alt="Logo" class="logo rounded-2xl">
+        </div>
+        <div>
+            <a href="./Sign-in.html" class="text-white pr-5"><span class="hover:underline">Login</span></a>
+            <a href="./index.html" class="text-white pr-5"><span class="hover:underline">Back</span></a>
+        </div>
+    </div>
+
+    <div class="max-w-7xl mx-auto mt-8 px-4">
+        <div class="bg-white p-4 shadow-md rounded-md mb-4">
+            <h2 class="text-3xl font-semibold mb-4">Your Shopping Cart</h2>
+            <div class="flex items-center mb-4">
+                <img src="../Assets/drifting car.jpg" alt="Product Image" class="h-20 w-20 object-cover rounded-md">
+                <div class="ml-4">
+                    <h3 class="font-semibold">Rc Drift car</h3>
+                    <p class="text-gray-500">$19.00</p>
+                    <div class="flex items-center mt-2">
+                        <input type="number" value="1" class="w-16 px-2 py-1 border-gray-300 border rounded-md">
+                        <button class="ml-2 text-red-500">Remove</button>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center mb-4">
+                <img src="../Assets/wb1.jpg" alt="Product Image" class="h-20 w-20 object-cover rounded-md">
+                <div class="ml-4">
+                    <h3 class="font-semibold">Water Bottle</h3>
+                    <p class="text-gray-500">$9.00</p>
+                    <div class="flex items-center mt-2">
+                        <input type="number" value="1" class="w-16 px-2 py-1 border-gray-300 border rounded-md">
+                        <button class="ml-2 text-red-500">Remove</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white p-4 shadow-md rounded-md">
+            <h2 class="text-3xl font-semibold mb-4">Order Summary</h2>
+            <div class="flex justify-between mb-2">
+                <span>Subtotal</span>
+                <span>$100.00</span>
+            </div>
+            <div class="flex justify-between mb-2">
+                <span>Shipping</span>
+                <span>Free</span>
+            </div>
+            <div class="flex justify-between mb-2">
+                <span>Total</span>
+                <span class="font-semibold">$100.00</span>
+            </div>
+            <button class="w-full bg-yellow-300 text-gray-900 py-2 rounded-md mt-4">Proceed to Checkout</button>
+        </div>
+    </div>
+    <footer class="bg-gray-900 text-white p-4">
+        <div class="mx-auto text-center">
+            <p>&copy; 2024 Lion king Homepage. All rights reserved.</p>
+        </div>
+    </footer>
+    
+</body>
+
+</html>
