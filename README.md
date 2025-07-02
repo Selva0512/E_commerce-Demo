@@ -8,7 +8,7 @@ This is a simple eCommerce website built with **React**, showcasing basic featur
 - 🛒 Add to Cart functionality
 - 🗑️ Remove from Cart
 - 📱 Responsive Design (Mobile Friendly)
-- ⚛️ Built using React & modern JavaScript (ES6+)
+- ⚛️ Built using React & modern JavaScript 
 
 ## 🔧 Tech Stack
 
